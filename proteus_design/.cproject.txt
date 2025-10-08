@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        <cconfiguration id="0">
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider"
+                           id="0" moduleId="org.eclipse.cdt.core.settings" name="Default">
+                <externalSettings/>
+                <extensions>
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                </extensions>
+            </storageModule>
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                <configuration artifactName="${ProjName}" buildProperties="" description=""
+                               id="0" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+                    <folderInfo id="0." name="/" resourcePath="">
+                        <toolChain id="0.toolchain" name="STM32 GCC Toolchain" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+                            <targetPlatform id="0.platform" name="Debug Platform" superClass="org.eclipse.cdt.build.core.prefbase.platform"/>
+                            <builder buildPath="${workspace_loc:/Proteus_Simulation}/Debug"
+                                     id="0.builder" managedBuildOn="true" name="Gnu Make Builder"
+                                     superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+                        </toolChain>
+                    </folderInfo>
+                </configuration>
+            </storageModule>
+        </cconfiguration>
+    </storageModule>
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        <project id="Proteus_Simulation" name="Proteus_Simulation"/>
+    </storageModule>
+    <storageModule moduleId="scannerConfiguration"/>
+</cproject>
